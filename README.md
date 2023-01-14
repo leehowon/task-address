@@ -19,10 +19,11 @@ _______________________________________________________________
 ### Java 17 사용
 `address-1.0.0.jar` 파일이 위치한 디렉토리에서 아래 명령어를 실행합니다.
 ```
-$ java -jar address-1.0.0.jar
+java -jar address-1.0.0.jar
 ```
 ### mvnw 사용
 ```
-$ git checkout https://github.com/leehowon/task-address.git
-$ ./mvnw spring-boot:run
+git clone https://github.com/leehowon/task-address.git
+cd task-address
+./mvnw spring-boot:run
 ```
